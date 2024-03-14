@@ -47,7 +47,9 @@ let num2 = +prompt("Ingrese segundo número")
 let num3 = +prompt("Ingrese tercer número")
 let num4 = +prompt("Ingrese cuarto número")
 let num5 = +prompt("Ingrese quinto número")
+//Cálculos
 addition = num1+num2+num3+num4+num5
 promedio = addition/5
+//Muestra por consola
 console.log("Suma "+addition)
 console.log("Promedio "+promedio)
