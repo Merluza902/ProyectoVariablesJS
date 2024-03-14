@@ -28,6 +28,7 @@ console.log(fahrenheit)
 let dias = +prompt("Ingrese cantidad de días")
 years = dias/365
 semanas = (dias%365)/7
+days = ((dias%365)%7)
 
 console.log(Math.floor(years))
 console.log(Math.floor(semanas))
