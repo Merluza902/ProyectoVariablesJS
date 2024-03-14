@@ -32,6 +32,7 @@ days = ((dias%365)%7)
 
 console.log(Math.floor(years))
 console.log(Math.floor(semanas))
+console.log(days)
 
 
 let resultado = `${name} tiene ${age} años y trabaja en ${ciudad}`;
