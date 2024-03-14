@@ -15,14 +15,14 @@ console.log(division);
 console.log(mult);
 console.log(modulo);
 
-//SECOND "CELSIUS TO KELVIN-FARENHEIT"
+//SECOND "CELSIUS TO KELVIN-FAhRENHEIT"
 //Pedir la t° en celsius
 let celsius = +prompt("Ingrese la temperatura en celsius");
-//Fórmula para transformar a Kelvin y Farenheit
+//Fórmula para transformar a Kelvin y Fahrenheit
 kelvin = celsius + 273.15
-farenheit = (celsius * 9/5) + 32
+fahrenheit = (celsius * 9/5) + 32
 console.log(kelvin)
-console.log(farenheit)
+console.log(fahrenheit)
 
 
 
