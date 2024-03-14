@@ -24,6 +24,13 @@ fahrenheit = (celsius * 9/5) + 32
 console.log(kelvin)
 console.log(fahrenheit)
 
+//THIRD  "DAYS TO Y/W/D"
+let dias = +prompt("Ingrese cantidad de días")
+years = dias/365
+semanas = dias/7
+console.log(math.floor(years))
+console.log(math.floor(semanas))
+
 
 
 let resultado = `${name} tiene ${age} años y trabaja en ${ciudad}`;
