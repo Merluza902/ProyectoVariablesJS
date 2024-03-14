@@ -28,11 +28,13 @@ console.log(fahrenheit)
 let dias = +prompt("Ingrese cantidad de días")
 years = dias/365
 semanas = (dias%365)/7
-days = ((dias%365)%7)
-
+days = (dias%365)%7
 console.log(Math.floor(years))
 console.log(Math.floor(semanas))
-console.log(days)
+console.log(Math.floor(days))
+alert(`los ${dias} días son equivalentes a ${Math.floor(years)} años, ${Math.floor(semanas)} semanas y ${Math.floor(days)}`)
+
+//
 
 
 let resultado = `${name} tiene ${age} años y trabaja en ${ciudad}`;
