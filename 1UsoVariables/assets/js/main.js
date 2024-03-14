@@ -28,9 +28,8 @@ console.log(fahrenheit)
 let dias = +prompt("Ingrese cantidad de días")
 years = dias/365
 semanas = dias/7
-console.log(math.floor(years))
-console.log(math.floor(semanas))
-
+console.log(Math.floor(years))
+console.log(Math.floor(semanas))
 
 
 let resultado = `${name} tiene ${age} años y trabaja en ${ciudad}`;
